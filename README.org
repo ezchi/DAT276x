@@ -1,0 +1,8 @@
+#+TITLE: Principles of Machine Learning: R Edition
+
+* Overview
+  This is my learning notebook for [[https://courses.edx.org/courses/course-v1:Microsoft+DAT276x+2T2018/course/][Microsoft: DAT276x - Principles of Machine
+  Learning: R Edition]].
+
+  Org-mode is used as R notebook to reproduce all the examples. Please use [[file:src/Setup.org][Setup.org]]
+  file to setup the environment before running any examples.

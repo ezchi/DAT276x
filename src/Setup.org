@@ -1,0 +1,18 @@
+
+* Rprofile
+
+  #+BEGIN_SRC R :tangle ~/.Rprofile
+    local({
+        r <- getOption("repos")
+        r["CRAN"] <- "https://cran.csiro.au"
+        options(repos = r)
+    })
+  #+END_SRC
+
+* Install Packages
+
+  #+BEGIN_SRC R :async
+    install.packages("caret", verbose=TRUE)
+  #+END_SRC
+
+  #+RESULTS:
