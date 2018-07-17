@@ -9,10 +9,18 @@
     })
   #+END_SRC
 
+  #+BEGIN_SRC R :tangle ~/.R/Makevars
+    MAKEFLAGS = -j4
+  #+END_SRC
+
 * Install Packages
 
   #+BEGIN_SRC R :async
+    install.packages("ggplot2")
     install.packages("caret", verbose=TRUE)
+    install.packages("repr", verbose=TRUE)
+    install.packages("dplyr", verbose=TRUE)
+    install.packages("kknn", verbose=TRUE, dependencies=TRUE, type="mac.binary")
   #+END_SRC
 
   #+RESULTS:
